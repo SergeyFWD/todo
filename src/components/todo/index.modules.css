@@ -1,0 +1,27 @@
+.item {
+  font-family: monospace;
+  cursor: pointer;
+  line-height: 1.5;
+}
+
+.item_all {
+  display: flex;
+}
+
+.del {
+  background-color: #78a0e9;
+  border: none;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.complete {
+  text-decoration: line-through;
+  color: lightgray;
+}
